@@ -1,0 +1,23 @@
+/* Background Properties */
+body  {}
+
+/* Link Properties */
+a:link {font-family:smlfatmarker; color:black} 
+a:visited {font-family:smlfatmarker; color:black}
+a:active {font-family:smlfatmarker; color:rgb(0,255,51)} 
+a:hover {font-family:smlfatmarker; color:rgb(0,255,51); background-image:url('images/body_back.jpg')} 
+a.white {font-family:smlfatmarker; color:white}
+a.white:hover {font-family:smlfatmarker; color:rgb(0,255,51)}
+a.reverse {font-family:smlfatmarker; color:rgb(0,255,51)}
+a.reverse:visited {font-family:smlfatmarker; color:rgb(0,255,51)}
+a.reverse:active {font-family:smlfatmarker; color:black}
+a.reverse:hover {font-family:smlfatmarker; color:black}
+
+/* Font Properties */
+@font-face { font-family: "smlfatmarker"; src: url('font/SMLFATMARKER.eot'); src: local("smlfatmarker"), url('font/SMLFATMARKER.ttf') format("truetype"); }  
+
+h1 {font-family:smlfatmarker; color:black; text-align:center; font-weight:bold;} 
+p {font-family:"times new roman"; color:rgb(0,255,51); font-size:11pt;}
+p.header {font-family:"times new roman"; color:black; font-size:15pt; font-weight:bold; text-align:center }
+
+.online {text-align:center; font-family:monospace; color:rgb(0,255,51); }
